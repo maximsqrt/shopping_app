@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ShooooopingCartScreen extends StatelessWidget {
-  const ShooooopingCartScreen({super.key});
+class ShoppingCartScreen extends StatelessWidget {
+  const ShoppingCartScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +16,7 @@ class ShooooopingCartScreen extends StatelessWidget {
                 child: Text('No items in the cart',
                     style: TextStyle(fontSize: 24)),
               )
-            : const Text("Shopping Items"));
+             // ignore: dead_code
+             : const Text("Shopping Items"));
   }
 }
