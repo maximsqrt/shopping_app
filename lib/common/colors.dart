@@ -16,7 +16,7 @@ class CustomColors {
         BoxShadow(
           color: Colors.black.withOpacity(0.1),
           blurRadius: 4,
-          offset: Offset(0, 2),
+          offset: const Offset(0, 2),
         ),
       ],
       gradient: LinearGradient(
@@ -27,3 +27,27 @@ class CustomColors {
     );
   }
 }
+
+class TextcolorZ {
+
+  static const Color color1 = Color.fromARGB(255, 220, 233, 237);
+}
+
+class TextcolorZ2 {
+
+  static const Color color2 = Color.fromARGB(255, 152, 190, 201);
+}
+
+
+//Evtl in 
+
+// // AnimatedContainer(
+//   duration: Duration(seconds: 5),
+//   decoration: BoxDecoration(
+//     gradient: LinearGradient(
+//       begin: Alignment.topCenter,
+//       end: Alignment.bottomCenter,
+//       colors: [CustomColors.color1, CustomColors.color2], // Change these colors over time
+//     ),
+//   ),
+// );
